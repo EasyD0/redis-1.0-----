@@ -1,0 +1,26 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=.",
+        "--compile-commands-dir=./build",
+        "--compile-commands-dir=./src"
+    ],
+    "clangd.fallbackFlags": [
+        "-Wall",
+        "-Wextra"
+    ],
+    "[c]": {
+        "clangd.fallbackFlags": [
+            "-std=c99"
+        ]
+    },
+    "[cpp]": {
+        "clangd.fallbackFlags": [
+            "-std=c++11"
+        ]
+    },
+    "[objective-cpp]": {
+        "clangd.fallbackFlags": [
+            "-std=c++11"
+        ]
+    }
+}

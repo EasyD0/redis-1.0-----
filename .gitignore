@@ -1,0 +1,17 @@
+*.o
+*.rdb
+redis-cli
+redis-server
+redis-benchmark
+doc-tools
+mkrelease.sh
+release
+myredis.conf
+client-libraries/*
+!client-libraries/cpp/
+doc/
+utils/
+ChangeLog
+BUGS
+00-RELEASENOTES
+TODO
